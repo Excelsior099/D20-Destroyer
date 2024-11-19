@@ -1,0 +1,89 @@
+* {
+    color: white;
+    font-family: "Copperplate";
+    text-align: center;
+    outline: 1px solid red;
+}
+
+#background {
+    background-color: rgb(117, 106, 184);
+}
+
+#words {
+    text-align: left;
+    display: inline-block;
+    outline: 2px solid blue;
+    height: 160px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.list {
+    text-align: left;
+}
+
+.alt-color {
+    color: gold;
+}
+
+.link-box {
+    display: inline-block;
+    outline: 2px solid blue;
+    height: 100px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(112, 128, 144);
+    margin-left: 400px;
+}
+
+.flex-container {
+    display: flex;
+    width: 1647px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container div {
+    background: rgb(5, 110, 31);
+    border: 4px solid rgb(221, 169, 0);
+    margin: 10px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container .D4 {
+    flex-shrink: 1;
+}
+
+.flex-container .D6 {
+    flex-shrink: 1;
+}
+
+.flex-container .D8 {
+    flex-shrink: 1;
+}
+
+.flex-container .D10 {
+    flex-shrink: 1;
+}
+
+.flex-container .D12 {
+    flex-shrink: 1;
+}
+
+.flex-container .D20 {
+    flex-shrink: 0;
+}
+
+.flex-container .D100 {
+    flex-shrink: 1;
+}
+
+.result-text {
+    font-size: 24px;
+    margin-top: 20px;
+}
